@@ -64,13 +64,13 @@ local embed = {
         ["title"] = "Player: **" .. source,
         ["description"] = message,
         ["footer"] = {
-            ["text"] = "Logs by DRC SCRIPTS :)!",
+            ["text"] = "Logs by MFROUK#1507 :)!",
         },
     }
 }
 PerformHttpRequest(webhook, function(err, text, headers) end, 'POST',
-    json.encode({ username = "DRC logs", embeds = embed,
-        avatar_url = "https://i.imgur.com/RclET8O.png" })
+    json.encode({ username = "MFROUK logs opice", embeds = embed,
+        avatar_url = "" })
     , { ['Content-Type'] = 'application/json' })
 end
 
